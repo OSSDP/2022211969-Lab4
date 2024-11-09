@@ -1,6 +1,6 @@
 package org.OpenSourceDev.test;
 
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 import org.OpenSourceDev.target.target.Solution12;
 
 public class L2022211969_12_Test {
