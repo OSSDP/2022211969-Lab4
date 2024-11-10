@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: org.OpenSourceDev.test.L2022211969_12_Test
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.082 s <<< FAILURE! -- in org.OpenSourceDev.test.L2022211969_12_Test
+org.OpenSourceDev.test.L2022211969_12_Test.Big_input -- Time elapsed: 0.047 s <<< FAILURE!
+java.lang.AssertionError
+	at org.OpenSourceDev.test.L2022211969_12_Test.Big_input(L2022211969_12_Test.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.OpenSourceDev.test.L2022211969_12_Test.Input_zero -- Time elapsed: 0.002 s <<< FAILURE!
+java.lang.AssertionError
+	at org.OpenSourceDev.test.L2022211969_12_Test.Input_zero(L2022211969_12_Test.java:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.OpenSourceDev.test.L2022211969_12_Test.Input_neg -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.Exception: error handling invalid input
+	at org.OpenSourceDev.test.L2022211969_12_Test.Input_neg(L2022211969_12_Test.java:35)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
