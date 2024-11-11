@@ -14,7 +14,6 @@ package org.OpenSourceDev.target.target;
  * 输入: num1 = "123", num2 = "456"
  * 输出: "56088"
  *
- *
  */
 
 public class Solution12 {

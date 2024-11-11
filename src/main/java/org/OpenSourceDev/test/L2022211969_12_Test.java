@@ -21,7 +21,7 @@ public class L2022211969_12_Test {
     //在合法输入中有单独为零的特殊情况
     @Test
     public void Input_zero (){
-        assert worker.multiply("0","111").equals("1");
+        assert worker.multiply("0","111").equals("0");
     }
 
     //以输入符号为例展示不合法输入的处理
@@ -30,7 +30,7 @@ public class L2022211969_12_Test {
         try {
             worker.multiply("-1","111");
         }catch (IllegalArgumentException e){
-            //return;
+            return;
         }
         throw new Exception("error handling invalid input");
     }
@@ -40,7 +40,7 @@ public class L2022211969_12_Test {
     @Test
     public void Big_input(){
         String ans = worker.multiply("111111111","2222222222");
-        assert ans.equals("");
+        assert ans.equals("246913579975308642");
     }
 
     //还存在以零开头后接数字的输入bug
